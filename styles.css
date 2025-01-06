@@ -1,20 +1,10 @@
-/*  your css code here. If applicable */
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: white;
-}
-
+/* Center the line and give it the required properties */
 #line {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the line */
   width: 200px;
   height: 2px;
   background-color: black;
-  top: 50%;
-  left: 50%;
-  transform-origin: center;
-  transform: translate(-50%, -50%) rotate(0deg);
 }
